@@ -29,10 +29,7 @@ namespace Hometask0404
             {
                 return true;
             }
-            else if (obj%2==0)
-            {
-                return false;
-            }
+
             for (int i = 2; i*i < obj; i++)
             {
                 if (obj%i==0)
